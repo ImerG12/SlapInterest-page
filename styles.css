@@ -1,0 +1,43 @@
+.header {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  background-color: #282727;
+  color: #FFFFFF;
+  width: 200%;
+}
+
+.Format {
+  align-items: center;
+  justify-content:center;
+
+}
+
+.Classic {
+  display: block;
+  justify-content: center;
+  align-items:center;
+  background-color: #282727;
+  color: #FFFFFF;
+  width: 200%;
+  flow: right;
+}
+
+h1 {
+  color: #ffc107;
+}
+
+.mx-auto{
+  font-size: 35px;
+}
+
+.border-mx-auto{
+  font-size: 20px;
+}
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
